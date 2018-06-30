@@ -1,5 +1,5 @@
 # TinyXSSHunter
-Note: url in below code needs to be changed. Receiver is just a very simple Java web application.
+Note: url in below code needs to be changed. Receiver is just a very simple Java web application. Path value in config.properties needs to point to where you want to store data.
 <br><br>
 javascript code:
 <br>
