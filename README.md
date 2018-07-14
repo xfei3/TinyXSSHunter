@@ -39,5 +39,5 @@ Encoder:https://www.w3schools.com/jsref/met_win_atob.asp
 <br>
 Thanks to:https://ardern.io/2017/12/10/blind-xss/
 
-https://xss.hackyour.app/
+https://xss.hackyour.app/ <br>
 \`whoami\`.hackyour.app
